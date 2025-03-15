@@ -14,8 +14,10 @@ public class constructor {
 	public static void main(String[] args) {
 		 new constructor();
 		 new constructor(10,20);
+		 new constructor();
 		
 
-	}
+	}//this is git message
 
+	
 }
