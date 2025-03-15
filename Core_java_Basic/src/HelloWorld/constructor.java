@@ -10,6 +10,8 @@ public class constructor {
 		System.out.println(a);
 		System.out.println(b);
 	}
+	
+	
 
 	public static void main(String[] args) {
 		 new constructor();
@@ -19,5 +21,6 @@ public class constructor {
 
 	}//this is git message
 
-	
 }
+
+
