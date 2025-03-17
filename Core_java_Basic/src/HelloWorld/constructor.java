@@ -17,7 +17,7 @@ public class constructor {
 		System.out.println(x);
 	}
 	
-	constructor(float a , int b){
+	constructor(double a , int b){
 		System.out.println(a);
 		System.out.println(b);
 		
@@ -28,7 +28,7 @@ public class constructor {
 		 new constructor();
 		 new constructor(10,20);
 		 new constructor(50);
-		 new constructor(19,19);
+		 new constructor(19.00,19);
 		 new constructor("John");
 		
 
