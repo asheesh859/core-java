@@ -27,16 +27,8 @@ public class UseThisKeyword {
 		this(10, 70);
 	}
 	
-	public void test(int ...x) {
-		for(int i:x) {
-			System.out.println(i);
-		}
-	}
-
 	public static void main(String[] args) {
-	UseThisKeyword obj=	new UseThisKeyword();
-	obj.test(1,2,3,4,5,6);
-		
+	new UseThisKeyword();		
 		
 	}
 
