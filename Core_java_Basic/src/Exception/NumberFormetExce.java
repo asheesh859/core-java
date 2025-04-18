@@ -24,6 +24,20 @@ public class NumberFormetExce {
 		
 		float n = Float.parseFloat(f);
 		System.out.println("float : "+n);
+		
+		
+		try {
+			String string = "22.5hsgds";
+			
+			double var = Double.parseDouble(string);
+			System.out.println(var);
+			
+			
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+			// TODO: handle exception
+		}
+		System.out.println("welcome");
 	}
 
 }
