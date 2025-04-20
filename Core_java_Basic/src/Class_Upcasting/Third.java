@@ -10,7 +10,7 @@ public class Third extends First{
 	public static void main(String[] args) {
 		First first = new Second();
 		first.display();
-		first=new Third();
+		first=new Third(); // another class object store in first class reference variable
 		first.display();
 	}
 	
