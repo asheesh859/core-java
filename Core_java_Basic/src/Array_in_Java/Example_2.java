@@ -1,7 +1,7 @@
 package Array_in_Java;
 
 public class Example_2 {
-
+	//print reverse array
 	public static void main(String[] args) {
 		int arr[]= new int[3];
 		arr[0]=10;
