@@ -12,7 +12,6 @@ public class Example_5 {
 					if(arr[i]!=arr[i+1]) {
 						temp[j]=arr[i];
 						j++;
-						j++;
 						
 					}
 				
