@@ -1,6 +1,4 @@
 package collections;
-
-import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.*;
@@ -28,6 +26,12 @@ public class ArrayList_1 {
 		System.out.println(arrayList);
 		
 		System.out.println(arrayList.get(1));
+		
+		
+		for(String countryString : arrayList) {
+			System.out.println("Country : " +countryString);
+		}
+		
 		
 	}
 
