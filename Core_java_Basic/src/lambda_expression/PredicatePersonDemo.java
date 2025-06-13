@@ -23,14 +23,15 @@ public class PredicatePersonDemo {
 		Person p4 = new Person("Ashu", 25);
 		Person p5 = new Person("Dev", 16);
 		
-		List<Person> persons = Arrays.asList(p1,p2,p3,p4,p5);
-		Predicate<Person> predicate = p -> p.age >=18;
-		
-		for(Person person : persons) {
-			if(predicate.test(person)) {
-				System.out.println(person.name);
-			}
+	List<Person> persons = Arrays.asList(p1,p2,p3,p4,p5);
+	
+	Predicate<Person> predicate = p -> p.age>=18;
+	
+	for(Person person : persons) {
+		if(predicate.test(person)) {
+			System.out.println(person.name);
 		}
+	}
 	}
 	
 }
